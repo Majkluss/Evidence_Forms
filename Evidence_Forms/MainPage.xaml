@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Evidence_Forms.MainPage">
+
+    <StackLayout Margin="20,35,20,25">
+        <Label Text="Čas příchodu: "/>
+        <Label Text="" x:Name="prichodLabel"/>
+        <Label x:Name="zobrCasPr" Text=""/>
+        <Button Text="Příchod" Clicked="PrichodBtn"/>
+        <Label Text="Čas odchodu: "/>
+        <Label Text="" x:Name="odchodLabel"/>
+        <Button Text="Odchod" Clicked="OdchodBtn"/>
+        <Label Text="Saldo dnes:"/>
+        <Label Text="" x:Name="saldoLabel"/>
+        <Label Text="Saldo celkem:"/>
+        <Label Text="" x:Name="saldoCelkemLabel"/>
+        <Button Text="Resetuj celkové saldo"/>
+    </StackLayout>
+</ContentPage>
